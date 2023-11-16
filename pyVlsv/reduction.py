@@ -755,6 +755,10 @@ def vg_coordinates_lowcorner( variables, reader):
    dxs = variables[1]
    return reader.get_cell_coordinates(cellids)-dxs/2
 
+def vg_MLT_from_coordinates():
+    return
+
+
 def vg_dx(variables, reader):
    cellids = variables[0]
    return reader.get_cell_dx(cellids)
